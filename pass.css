@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.totalchar{
+    display: inline-block;
+    height: 40px;
+    width: 350px;
+    border: 1px solid;
+    margin-left:15px ;
+    text-align: center;
+    font-weight: 900;
+    padding-top: 4px;
+    background-color: azure;
+}
+body{
+    background-image: url(img/pass.jpg);
+    background-size: cover;
+    width:100%;
+    height:100%;
+}
+.pw-box{
+    background-color: white;
+    height: 350px;
+    width:400px;
+    margin-top: 150px;
+    margin-left: 400px;
+    line-height: 2.5;
+    
+}
+.pw-sub-box{
+    padding: 10px 15px;
+    width: 100%;
+    /* background-image: url(img/lock.png); */
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+font-weight: 900;
+}
+.pw-sub-box>input{
+    height: 40px;
+    width: 100%;
+}
+
+.size{
+    width:40px ;
+}
+.pw-length, .pw-upper,.pw-lower,.pw-number ,.pw-symbols{
+    display: flex;
+    justify-content:space-between ;
+}
+
+button{
+    background-color: rgb(120, 56, 180);
+    height: 40px;
+    width: 120px;
+    outline: none;
+    border-radius: 7px;
+    margin-left:35%
+}

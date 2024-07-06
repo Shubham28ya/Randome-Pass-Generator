@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pass.css">
+    <title>PassWord Generator</title>
+</head>
+<body>
+    <div class="pw-box">
+        <div class="pw-sub-box">
+            <span class="totalchar">Click on Generat for randome password</span>
+            <div class="pw-length">
+               <span> password length</span><input type="number"  max="11" min="4" value="10" class="length">
+            </div>
+            <div class="pw-upper">
+               
+                <span> Contains Uppercase</span>
+               
+                <input type="checkbox" name="" class="Uppercase" checked/>
+             </div>
+             <div class="pw-lower">
+                <span> Contains Lowercase</span><input class="Lowercase" type="checkbox" checked/>
+             </div>
+             <div class="pw-number">
+                <span> Contains Numbers</span><input type="checkbox" class="Numbercase" checked/>
+             </div>
+             <div class="pw-symbols">
+                <span> Contains Symbols</span><input type="checkbox" class="Symbols" checked/>
+             </div>
+             <button>Generate</button>
+        </div>
+    </div>
+    
+
+    <script src="pass.js"></script>
+</body>
+</html>
